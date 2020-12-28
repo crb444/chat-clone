@@ -1,0 +1,17 @@
+.room {
+  display: flex;
+  padding: 20px;
+  border-bottom: solid 2px #f8f7f8;
+}
+
+.room__details {
+  padding-left: 30px;
+}
+
+.room__details > h3 {
+  color: black;
+}
+
+.room__details > p {
+  color: #c4beb4;
+}

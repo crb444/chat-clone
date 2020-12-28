@@ -1,0 +1,43 @@
+.message__normal {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.message__userSent {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+}
+
+.message__contentsNormal {
+  background-color: #ffffff;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.message__contentsUserSent {
+  background-color: #4dd35c;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.message__contentsNormal > h3,
+.message__contentsUserSent > h3 {
+  font-size: medium;
+  font-weight: 300;
+}
+
+.message__contentsNormal > p,
+.message__contentsUserSent > p {
+  font-size: small;
+  font-weight: 100;
+  padding-top: 5px;
+}
+
+.message__sender > p {
+  font-size: x-small;
+  font-weight: bold;
+}

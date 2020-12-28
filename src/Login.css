@@ -1,0 +1,34 @@
+.login {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  width: 100vh;
+}
+
+.login__container {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 100px;
+  border-radius: 50px;
+  place-items: center;
+}
+
+.login__image > img {
+  width: 350px;
+  height: 300px;
+}
+
+.login__button {
+  display: flex;
+  justify-content: center;
+}
+
+.login__button > button {
+  margin-top: 50px !important;
+  margin-top: 0px;
+  background-color: #8bc542 !important;
+  color: white !important;
+  width: 200px !important;
+  height: 40px !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-transform: inherit !important;
+}

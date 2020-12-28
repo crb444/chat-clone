@@ -1,0 +1,77 @@
+.chats {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.chats__roomInfo {
+  background-color: #128c7e;
+  color: white;
+  height: 60px;
+  padding-top: 20px;
+  padding-left: 20px;
+  display: flex;
+}
+
+.chats__roomInfoDetails {
+  flex: 0.9;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.chats__roomInfoDetails > p {
+  white-space: nowrap;
+}
+
+.chats__roomInfoIcons {
+  display: flex;
+  flex: 0.1;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.chats__conversation {
+  background-image: url("https://ghostcode.in/wp-content/uploads/2016/09/super_hero_whatsapp_background_by_x_ama-d8fr7iz.jpg");
+  background-repeat: repeat;
+  height: 95%;
+  background-position: center;
+  overflow: scroll;
+  scroll-snap-align: end;
+  scroll-snap-type: y proximity;
+}
+
+.chats__newMessage {
+  background-color: #f8f7f8;
+  display: flex;
+  padding: 20px;
+  flex: 0.1;
+  justify-content: space-evenly;
+}
+
+.chats__newMessageBox {
+  background-color: white;
+  border-radius: 40px;
+  width: 1000px;
+  flex: 0.9;
+}
+
+.chats__newMessageBox > form > input {
+  margin-left: 30px;
+  align-self: center;
+  width: 800px;
+  border: none;
+  height: 20px;
+}
+.chats__newMessageBox > form > input:focus {
+  outline: none;
+}
+
+.chats__newMessageBox > form > button {
+  display: none;
+}
+
+.chats___roomInfoOptions {
+  display: flex;
+  margin-left: 670px;
+}
